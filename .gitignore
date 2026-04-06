@@ -1,3 +1,9 @@
 .venv
 .env
 .DC_STORE
+__pycache__/
+*.pyc
+.pytest_cache/
+htmlcov/
+*.egg-info/
+.venv/
