@@ -1,0 +1,20 @@
+[tool.aerich]
+tortoise_orm = "app.database.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+
+
+# 1- Initialize Aerich (creates migrations / folder + aerich table in DB)
+# aerich init-db
+
+# 2- Create your first migration snapshot
+# aerich init
+
+# 3- When you change a model, generate a new migration
+# aerich migrate --name "add_poster_url_to_movies"
+
+# 4- Apply pending migrations
+#aerich upgrade
+
+# 5- Save migration history
+# aerich history
